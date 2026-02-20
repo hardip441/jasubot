@@ -1,18 +1,27 @@
 FROM python:3.12-slim
 
-# Working directory set karo
+# Working directory
 WORKDIR /app
 
-# 1. Pehla system dependencies
-RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+# 1. System dependencies + Build tools install karo
+# Pillow ane tgcrypto mate gcc, musl-dev ane libjpeg jaruri chhe
+RUN apt-get update && apt-get install -y \
+    git \
+    gcc \
+    python3-dev \
+    libjpeg-dev \
+    zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# 2. Tamari badhi files copy karo (HAVE . /app/ ke . . banne chale)
+# 2. Files copy karo
 COPY . .
 
-# 3. Pip upgrade ane requirements install (Have file mali jase)
+# 3. Pip upgrade ane requirements install
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Port
 EXPOSE 8080
 
+# Bot start
 CMD ["python", "bot.py"]
