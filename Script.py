@@ -51,12 +51,12 @@ class script(object):
     # Biji badhi lines rehva do...
 
     CHANNELS = """
-<u>ᴏᴜʀ ᴀʟʟ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ᴄʜᴀɴɴᴇʟꜱ</u> 
+<u>OUR ALL GROUPS AND CHANNELS</u> 
 
-▫ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴀɴᴅ ᴏʟᴅ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ.
-▫ ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇꜱ ᴍᴏᴠɪᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ.
-▫ ᴀʟᴡᴀʏꜱ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ.
-▫ 𝟸𝟺x𝟽 ꜱᴇʀᴠɪᴄᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ."""
+- ALL LATEST AND OLD MOVIES AND SERIES.
+- ALL LANGUAGES MOVIES AVAILABLE.
+- ALWAYS ADMIN SUPPORT.
+- 24x7 SERVICES AVAILABLE."""
 
     LOGO = """
 
@@ -371,6 +371,7 @@ developer : Mr.Jisshu
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/IM_JISSHU">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/bambhaniya_jagdish_79">ᴀᴅᴍɪɴ</a></b>"""
+
 
 
 
